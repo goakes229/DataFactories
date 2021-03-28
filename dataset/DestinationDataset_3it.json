@@ -1,0 +1,26 @@
+{
+	"name": "DestinationDataset_3it",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "logname",
+				"type": "nchar"
+			},
+			{
+				"name": "logvalue",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "logs"
+		}
+	}
+}
