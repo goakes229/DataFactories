@@ -1,0 +1,9 @@
+{
+	"name": "movedatdatagjo",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "68a01ba2-6142-4b42-82c5-d5b4d746ac1d",
+		"tenantId": "de1bf08d-501f-49f4-8e65-f42f255e785a"
+	}
+}
